@@ -38,7 +38,7 @@ public class InsultGenerator {
 			}	
 		}
 		catch(Exception e) {
-			return String.format("Database connection problem: %s", e.getMessage());
+			return String.format("Database connection problem: %s\n\nDatabase URL: %s\nUsername: %s\nPassword: %s", e.getMessage(),databaseURL,username,password);
 		}
 		return theInsult;
 
