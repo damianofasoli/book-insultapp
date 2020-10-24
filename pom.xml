@@ -52,11 +52,20 @@
 	<artifactId>InsultApp</artifactId>
 
     <dependencies>
+
         <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>8.0.1</version>
+        </dependency>
+
+
+         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.2.18.jre7</version>
         </dependency>
+
     </dependencies>
     
 </project>
